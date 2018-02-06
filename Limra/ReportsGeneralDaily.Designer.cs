@@ -57,7 +57,6 @@
             this.comboBoxDocType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxDocType.FormattingEnabled = true;
             this.comboBoxDocType.Items.AddRange(new object[] {
-            "كلى",
             "قيود يومية",
             "سندات صرف",
             "سندات قبض",

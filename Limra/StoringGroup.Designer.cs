@@ -1,6 +1,6 @@
 ﻿namespace Limra
 {
-    partial class StoringDataGroup
+    partial class StoringGroup
     {
         /// <summary>
         /// Required designer variable.
@@ -73,7 +73,6 @@
             this.groupBox1.Size = new System.Drawing.Size(137, 625);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
             // 
             // buttonDelete
             // 
@@ -318,7 +317,7 @@
             this.dataGridView1.Size = new System.Drawing.Size(737, 359);
             this.dataGridView1.TabIndex = 18;
             // 
-            // StoringDataGroup
+            // StoringGroup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -328,7 +327,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "StoringDataGroup";
+            this.Name = "StoringGroup";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RightToLeftLayout = true;
             this.Text = "مجموعات مخزنية";

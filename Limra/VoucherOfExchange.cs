@@ -398,6 +398,7 @@ namespace Limra
 
         private string getBankAccNumberFromBankNumber()
         {
+            con.Open();
             string sqlquery = "SELECT accNum FROM Banks WHERE num=@num";
             SqlCommand command = new SqlCommand(sqlquery, con);
             command.Parameters.Clear();

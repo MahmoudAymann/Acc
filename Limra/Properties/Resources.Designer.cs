@@ -242,9 +242,29 @@ namespace Limra.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ic_suppliers_42 {
+            get {
+                object obj = ResourceManager.GetObject("ic_suppliers_42", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ic_switching_42 {
             get {
                 object obj = ResourceManager.GetObject("ic_switching_42", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ic_today42 {
+            get {
+                object obj = ResourceManager.GetObject("ic_today42", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

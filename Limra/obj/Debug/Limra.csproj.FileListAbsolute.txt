@@ -95,7 +95,6 @@ C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.TransferOfStoresBalances.resources
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.TrilaBalanceReport.resources
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.UsersPermisions.resources
-C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.StoringDataGroup.resources
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.ItemsPricing.resources
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.csproj.CoreCompileInputs.cache
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.StoreSupplyOrders.resources
@@ -138,3 +137,5 @@ C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.DetailedSubAccReportForm.resources
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.SubAccReportForm.resources
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.DetailedSubAccountReport.resources
+C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.StoringGroup.resources
+C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.SuppliersInfo.resources

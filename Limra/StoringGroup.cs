@@ -10,14 +10,14 @@ using System.Data.SqlClient;
 
 namespace Limra
 {
-    public partial class StoringDataGroup : Form
+    public partial class StoringGroup : Form
     {
         private const string strconneciton = @"Data Source=SPECTRA5;Initial Catalog=Limra;Integrated Security=True;TrustServerCertificate=False";
         SqlConnection con = new SqlConnection(strconneciton);
         SqlCommand cmd = new SqlCommand();
         DataTable dataTable;
         string cuurency;
-        public StoringDataGroup()
+        public StoringGroup()
         {
             InitializeComponent();
             loadDataIntoGridView();

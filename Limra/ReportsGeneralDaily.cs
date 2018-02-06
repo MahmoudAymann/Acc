@@ -25,16 +25,88 @@ namespace Limra
 
         private void buttonPrint_Click(object sender, EventArgs e)
         {
-            if (comboBoxDocType.SelectedIndex == 2) //سندات صرف
-            {
-                if (comboBoxReportType.SelectedIndex == 0)//حسب ارقام الوثائق
-                {
-                    if (Application.OpenForms["CrysRepRelayedVocherOfExchangeForm"] == null)
+            int documentType = comboBoxDocType.SelectedIndex;
+            int reportType = comboBoxReportType.SelectedIndex;
+
+            switch (documentType) {
+                case 0:                  //dailyRestriction
+                    switch (reportType)
                     {
-                        new CrysRepRelayedVocherOfExchangeForm().Show();
+                        case 0:
+                            if (Application.OpenForms["CrysRepRelayedDailyRestrictionsForm"] == null)
+                            {
+                                new RelayedDailyRestrictionsReportForm().Show();
+                            }
+                            break;
+                        case 1:
+                            if (Application.OpenForms["CrysRepRelayedDailyRestrictionsForm"] == null)
+                            {
+                                new RelayedDailyRestrictionsReportForm().Show();
+                            }
+                            break;
+                        case 2:
+                            if (Application.OpenForms["CrysRepRelayedDailyRestrictionsForm"] == null)
+                            {
+                                new RelayedDailyRestrictionsReportForm().Show();
+                            }
+                            break;
                     }
-                }
+                    break;
+                case 1: // vocher of exchange
+                    switch (reportType)
+                    {
+                        case 0:
+                            if (Application.OpenForms["CrysRepRelayedDailyRestrictionsForm"] == null)
+                            {
+                                new CrysRepRelayedVocherOfExchangeForm().Show();
+                            }
+                            break;
+                        case 1:
+                            if (Application.OpenForms["CrysRepRelayedDailyRestrictionsForm"] == null)
+                            {
+                                new CrysRepRelayedVocherOfExchangeForm().Show();
+                            }
+                            break;
+                        case 2:
+                            if (Application.OpenForms["CrysRepRelayedDailyRestrictionsForm"] == null)
+                            {
+                                new CrysRepRelayedVocherOfExchangeForm().Show();
+                            }
+                            break;
+                    }
+                    break;
+                case 2: //VocherOfRecievable 
+                    switch (reportType)
+                    {
+                        case 0:
+                            if (Application.OpenForms["CrysRepRelayedDailyRestrictionsForm"] == null)
+                            {
+                                new RelayedDailyRestrictionsReportForm().Show();
+                            }
+                            break;
+                        case 1:
+                            if (Application.OpenForms["CrysRepRelayedDailyRestrictionsForm"] == null)
+                            {
+                                new RelayedDailyRestrictionsReportForm().Show();
+                            }
+                            break;
+                        case 2:
+                            if (Application.OpenForms["CrysRepRelayedDailyRestrictionsForm"] == null)
+                            {
+                                new RelayedDailyRestrictionsReportForm().Show();
+                            }
+                            break;
+                    }
+                    break;
+
+
+
+                default:
+                    MessageBox.Show("choose an operation");
+                    break;
             }
+            
+            
         }
 
         private void comboBoxReportType_SelectedIndexChanged(object sender, EventArgs e)

@@ -266,7 +266,7 @@ namespace Limra
         {
             if (Application.OpenForms["DataGroup"] == null)
             {
-                new StoringDataGroup().Show();
+                new StoringGroup().Show();
             }
         }
 
@@ -288,10 +288,7 @@ namespace Limra
 
         private void ribbonButton32_Click(object sender, EventArgs e)
         {
-            if (Application.OpenForms["PricingItems"] == null)
-            {
-                new ItemsPricing().Show();
-            }
+            
         }
 
         private void ribbonButton31_Click(object sender, EventArgs e)
@@ -885,6 +882,78 @@ namespace Limra
             if (Application.OpenForms["CancelRelayBankBonds"] == null)
             {
                 new CancelRelayBankBonds().Show();
+            }
+        }
+
+        private void ribbonButton4_Click_1(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["StoreInfo"] == null)
+            {
+                new StoreInfo().Show();
+            }
+        }
+
+        private void ribbonButton3_Click_1(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["StoringGroup"] == null)
+            {
+                new StoringGroup().Show();
+            }
+        }
+
+        private void ribbonButton2_Click_1(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["StoreSupplyOrders"] == null)
+            {
+                new StoreSupplyOrders().Show();
+            }
+        }
+
+        private void ribbonButton1_Click_1(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["StoreExchangeOrders"] == null)
+            {
+                new StoreExchangeOrders().Show();
+            }
+        }
+
+        private void ribbonButton7_Click_1(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["ItemData"] == null)
+            {
+                new ItemData().Show();
+            }
+        }
+
+        private void ribbonButton6_Click_1(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["StoringItems"] == null)
+            {
+                new StoringItems().Show();
+            }
+        }
+
+        private void ribbonButton5_Click_1(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["ItemsPricing"] == null)
+            {
+                new ItemsPricing().Show();
+            }
+        }
+
+        private void ribbonButton20_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["AgentsData"] == null)
+            {
+                new AgentsData().Show();
+            }
+        }
+
+        private void ribbonButton16_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["SuppliersInfo"] == null)
+            {
+                new SuppliersInfo().Show();
             }
         }
     }//end class

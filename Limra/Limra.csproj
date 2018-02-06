@@ -113,6 +113,18 @@
     <Compile Include="AgentsDataReports.Designer.cs">
       <DependentUpon>AgentsDataReports.cs</DependentUpon>
     </Compile>
+    <Compile Include="RelayedDailyRestrictionsCryRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RelayedDailyRestrictionsCryRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RelayedDailyRestrictionsReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RelayedDailyRestrictionsReportForm.Designer.cs">
+      <DependentUpon>RelayedDailyRestrictionsReportForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DetailedSubAccCrysRep.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -292,6 +304,12 @@
     <Compile Include="Banks.Designer.cs">
       <DependentUpon>Banks.cs</DependentUpon>
     </Compile>
+    <Compile Include="SuppliersInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuppliersInfo.Designer.cs">
+      <DependentUpon>SuppliersInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="VoucherOfExchange.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -358,11 +376,11 @@
     <Compile Include="CancelRelayExchangeOrders.Designer.cs">
       <DependentUpon>CancelRelayExchangeOrders.cs</DependentUpon>
     </Compile>
-    <Compile Include="StoringDataGroup.cs">
+    <Compile Include="StoringGroup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="StoringDataGroup.Designer.cs">
-      <DependentUpon>StoringDataGroup.cs</DependentUpon>
+    <Compile Include="StoringGroup.Designer.cs">
+      <DependentUpon>StoringGroup.cs</DependentUpon>
     </Compile>
     <Compile Include="StoreExchangeOrders.cs">
       <SubType>Form</SubType>
@@ -763,6 +781,10 @@
     <EmbeddedResource Include="DetailedSubAccReportForm.resx">
       <DependentUpon>DetailedSubAccReportForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="RelayedDailyRestrictionsCryRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RelayedDailyRestrictionsCryRep.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="SubAccountReport.resx">
       <DependentUpon>SubAccountReport.cs</DependentUpon>
     </EmbeddedResource>
@@ -848,6 +870,9 @@
     <EmbeddedResource Include="Banks.resx">
       <DependentUpon>Banks.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SuppliersInfo.resx">
+      <DependentUpon>SuppliersInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VoucherOfExchange.resx">
       <DependentUpon>VoucherOfExchange.cs</DependentUpon>
     </EmbeddedResource>
@@ -881,8 +906,8 @@
     <EmbeddedResource Include="CancelRelayExchangeOrders.resx">
       <DependentUpon>CancelRelayExchangeOrders.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="StoringDataGroup.resx">
-      <DependentUpon>StoringDataGroup.cs</DependentUpon>
+    <EmbeddedResource Include="StoringGroup.resx">
+      <DependentUpon>StoringGroup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StoreExchangeOrders.resx">
       <DependentUpon>StoreExchangeOrders.cs</DependentUpon>
@@ -1116,6 +1141,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Hopstarter-Sleek-Xp-Basic-Money.ico" />
+    <None Include="Resources\ic_today42.png" />
+    <None Include="Resources\ic_suppliers_42.png" />
+    <None Include="Resources\ic_priceProduct_42.png" />
+    <None Include="Resources\ic_storeItems_42.png" />
+    <None Include="Resources\ic_ProductAdd_42.png" />
     <None Include="Resources\ic_agents_42.png" />
     <None Include="Resources\ic_boxes_42.png" />
     <None Include="Resources\ic_store_42.png" />

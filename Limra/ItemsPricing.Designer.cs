@@ -108,40 +108,52 @@
             // 
             // buttonDelete
             // 
+            this.buttonDelete.Image = global::Limra.Properties.Resources.if_delete;
+            this.buttonDelete.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonDelete.Location = new System.Drawing.Point(6, 267);
             this.buttonDelete.Name = "buttonDelete";
-            this.buttonDelete.Size = new System.Drawing.Size(119, 44);
+            this.buttonDelete.Size = new System.Drawing.Size(119, 57);
             this.buttonDelete.TabIndex = 3;
             this.buttonDelete.Text = "حذف";
+            this.buttonDelete.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonDelete.UseVisualStyleBackColor = true;
             this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(6, 217);
+            this.buttonEdit.Image = global::Limra.Properties.Resources.if_edit;
+            this.buttonEdit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.buttonEdit.Location = new System.Drawing.Point(6, 159);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(119, 44);
+            this.buttonEdit.Size = new System.Drawing.Size(119, 57);
             this.buttonEdit.TabIndex = 2;
             this.buttonEdit.Text = "تعديل";
+            this.buttonEdit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonEdit.UseVisualStyleBackColor = true;
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(6, 167);
+            this.buttonAdd.Image = global::Limra.Properties.Resources.if_save;
+            this.buttonAdd.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.buttonAdd.Location = new System.Drawing.Point(6, 96);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(119, 44);
+            this.buttonAdd.Size = new System.Drawing.Size(119, 57);
             this.buttonAdd.TabIndex = 1;
             this.buttonAdd.Text = "إضافة";
+            this.buttonAdd.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonAdd.UseVisualStyleBackColor = true;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonNew
             // 
+            this.buttonNew.Image = global::Limra.Properties.Resources.if_plus_add;
+            this.buttonNew.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.buttonNew.Location = new System.Drawing.Point(6, 17);
             this.buttonNew.Name = "buttonNew";
             this.buttonNew.Size = new System.Drawing.Size(119, 73);
             this.buttonNew.TabIndex = 0;
             this.buttonNew.Text = "جديد";
+            this.buttonNew.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buttonNew.UseVisualStyleBackColor = true;
             // 
             // groupBox3

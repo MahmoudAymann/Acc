@@ -121,11 +121,11 @@
   <data name="if_bank" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\if_bank.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="if_fileshare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\if_fileshare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dreamstime_xxl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dreamstime_xxl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="contact_center" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\contact_center.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="if_view_refreshs" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\if_view_refreshs.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,6 +169,9 @@
   <data name="wallpaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wallpaper.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ic_priceProduct_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_priceProduct_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cancel_relay" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cancel_relay.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -196,11 +199,14 @@
   <data name="if_business_economic_finance_receipt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\if_business_economic_finance_receipt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="if_fileshare" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\if_fileshare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="contact_center" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contact_center.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="general-ledger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\general-ledger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ic_suppliers_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_suppliers_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ic_ProductAdd_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ic_ProductAdd_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,7 +226,7 @@
   <data name="if_save" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\if_save.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ic_priceProduct_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ic_priceProduct_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ic_today42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ic_today42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
