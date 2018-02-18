@@ -271,7 +271,7 @@ namespace Limra
             if (dataGridView2.Rows.Count > 1 || dataGridView2.Rows.Count != 0)
             {
                 insertIntoRelayDatabase();
-                deleteFromNonRelayDataBase();
+               // deleteFromNonRelayDataBase();
             }
         }
 
@@ -303,7 +303,8 @@ namespace Limra
                 for (int i = 0; i < dataGridView2.Rows.Count; i++)
                 {
                     SqlCommand cmd = new SqlCommand("INSERT INTO RelayDailyRestrictions" +
-                    " SELECT * FROM DailyRestrictions where docId=@docId");
+                        "(docId, accNum, accName, description, credit, debit, enterName, refNum, cost)" +
+                    " SELECT (docId, accNum, accName, description, credit, debit, enterName, refNum, cost) FROM DailyRestrictions where docId=@docId");
                     cmd.Connection = con;
                     cmd.Parameters.Clear();
                     cmd.Parameters.AddWithValue("@docId", dataGridView2.Rows[i].Cells[0].Value);
@@ -314,7 +315,7 @@ namespace Limra
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.Message);
+                //MessageBox.Show(e.Message);
             }
         }//end insertAfterDeleteIntoDb
     }

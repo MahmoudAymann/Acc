@@ -66,7 +66,7 @@
             "اوامر صرف مخزنية"});
             this.comboBoxDocType.Location = new System.Drawing.Point(95, 31);
             this.comboBoxDocType.Name = "comboBoxDocType";
-            this.comboBoxDocType.Size = new System.Drawing.Size(181, 21);
+            this.comboBoxDocType.Size = new System.Drawing.Size(268, 21);
             this.comboBoxDocType.TabIndex = 1;
             // 
             // comboBoxReportType
@@ -79,14 +79,14 @@
             "حسب ارقام الحسابات - اجمالى"});
             this.comboBoxReportType.Location = new System.Drawing.Point(95, 67);
             this.comboBoxReportType.Name = "comboBoxReportType";
-            this.comboBoxReportType.Size = new System.Drawing.Size(181, 21);
+            this.comboBoxReportType.Size = new System.Drawing.Size(268, 21);
             this.comboBoxReportType.TabIndex = 3;
             this.comboBoxReportType.SelectedIndexChanged += new System.EventHandler(this.comboBoxReportType_SelectedIndexChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 70);
+            this.label2.Location = new System.Drawing.Point(22, 70);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(58, 13);
             this.label2.TabIndex = 2;
@@ -95,7 +95,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 111);
+            this.label3.Location = new System.Drawing.Point(31, 111);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(49, 13);
             this.label3.TabIndex = 4;
@@ -103,14 +103,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(77, 108);
+            this.textBox1.Location = new System.Drawing.Point(93, 108);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 5;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(254, 108);
+            this.textBox2.Location = new System.Drawing.Point(263, 108);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 7;
@@ -118,7 +118,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(199, 111);
+            this.label4.Location = new System.Drawing.Point(208, 111);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 13);
             this.label4.TabIndex = 6;
@@ -126,7 +126,7 @@
             // 
             // textBoxFromAcc
             // 
-            this.textBoxFromAcc.Location = new System.Drawing.Point(77, 153);
+            this.textBoxFromAcc.Location = new System.Drawing.Point(92, 148);
             this.textBoxFromAcc.Name = "textBoxFromAcc";
             this.textBoxFromAcc.Size = new System.Drawing.Size(100, 20);
             this.textBoxFromAcc.TabIndex = 9;
@@ -135,7 +135,7 @@
             // labelFromAcc
             // 
             this.labelFromAcc.AutoSize = true;
-            this.labelFromAcc.Location = new System.Drawing.Point(12, 156);
+            this.labelFromAcc.Location = new System.Drawing.Point(21, 151);
             this.labelFromAcc.Name = "labelFromAcc";
             this.labelFromAcc.Size = new System.Drawing.Size(59, 13);
             this.labelFromAcc.TabIndex = 8;
@@ -144,7 +144,7 @@
             // 
             // textBoxToAcc
             // 
-            this.textBoxToAcc.Location = new System.Drawing.Point(254, 149);
+            this.textBoxToAcc.Location = new System.Drawing.Point(263, 148);
             this.textBoxToAcc.Name = "textBoxToAcc";
             this.textBoxToAcc.Size = new System.Drawing.Size(100, 20);
             this.textBoxToAcc.TabIndex = 11;
@@ -153,7 +153,7 @@
             // labelToAcc
             // 
             this.labelToAcc.AutoSize = true;
-            this.labelToAcc.Location = new System.Drawing.Point(189, 152);
+            this.labelToAcc.Location = new System.Drawing.Point(198, 151);
             this.labelToAcc.Name = "labelToAcc";
             this.labelToAcc.Size = new System.Drawing.Size(62, 13);
             this.labelToAcc.TabIndex = 10;
@@ -163,9 +163,9 @@
             // buttonPrint
             // 
             this.buttonPrint.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonPrint.Location = new System.Drawing.Point(47, 213);
+            this.buttonPrint.Location = new System.Drawing.Point(15, 186);
             this.buttonPrint.Name = "buttonPrint";
-            this.buttonPrint.Size = new System.Drawing.Size(276, 34);
+            this.buttonPrint.Size = new System.Drawing.Size(348, 34);
             this.buttonPrint.TabIndex = 12;
             this.buttonPrint.Text = "طباعة";
             this.buttonPrint.UseVisualStyleBackColor = true;
@@ -176,7 +176,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(375, 259);
+            this.ClientSize = new System.Drawing.Size(375, 232);
             this.Controls.Add(this.buttonPrint);
             this.Controls.Add(this.textBoxToAcc);
             this.Controls.Add(this.labelToAcc);

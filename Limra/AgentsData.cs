@@ -97,7 +97,7 @@ namespace Limra
             try
             {
                 con.Open();
-                cmd.CommandText = "SELECT accoNum, accoNameArabic FROM CalculationGuide WHERE accoKind=@accoKind";
+                cmd.CommandText = "SELECT accoNum, accoNameArabic FROM CalculationGuide WHERE accoKind=@accoKind AND used=@used";
                 cmd.Connection = con;
                 cmd.Parameters.Clear();
                 cmd.Parameters.AddWithValue("@accoKind", "فرعى");

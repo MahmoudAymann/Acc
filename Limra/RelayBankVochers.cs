@@ -451,6 +451,7 @@ namespace Limra
                 cmd.Parameters.Clear();
                 cmd.Parameters.AddWithValue("@docID", dataGridView2.Rows[i].Cells[0].Value);
                 cmd.ExecuteNonQuery();
+
             }
             con.Close();
         }

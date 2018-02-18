@@ -52,7 +52,6 @@ C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.LeftSalesBillReport.resources
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.LeftSalesReturnReport.resources
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.LeftSupplyOrdersReports.resources
-C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.MainPage.resources
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.MaintenanceOfBranches.resources
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.MonthlyMovementBalancesReport.resources
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.OpenNewYear.resources
@@ -139,3 +138,6 @@ C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.DetailedSubAccountReport.resources
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.StoringGroup.resources
 C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.SuppliersInfo.resources
+C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.Form1.resources
+C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.MainForm.resources
+C:\Users\Karim\Documents\Visual Studio 2017\Projects\Limra\Limra\obj\Debug\Limra.BalanceSheetReportForm.resources

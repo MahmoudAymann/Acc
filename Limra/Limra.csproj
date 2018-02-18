@@ -113,6 +113,24 @@
     <Compile Include="AgentsDataReports.Designer.cs">
       <DependentUpon>AgentsDataReports.cs</DependentUpon>
     </Compile>
+    <Compile Include="BalanceSheetReportCrysRep.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BalanceSheetReportCrysRep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BalanceSheetReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BalanceSheetReportForm.Designer.cs">
+      <DependentUpon>BalanceSheetReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="RelayedDailyRestrictionsCryRep.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -137,6 +155,7 @@
     <Compile Include="DetailedSubAccReportForm.Designer.cs">
       <DependentUpon>DetailedSubAccReportForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SQLInfoEnumerator.cs" />
     <Compile Include="SubAccountReport.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -466,11 +485,11 @@
     <Compile Include="LeftSupplyOrdersReports.Designer.cs">
       <DependentUpon>LeftSupplyOrdersReports.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainPage.cs">
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainPage.Designer.cs">
-      <DependentUpon>MainPage.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MaintenanceOfBranches.cs">
       <SubType>Form</SubType>
@@ -774,12 +793,22 @@
     <EmbeddedResource Include="AgentsDataReports.resx">
       <DependentUpon>AgentsDataReports.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BalanceSheetReportCrysRep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BalanceSheetReportCrysRep.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BalanceSheetReportForm.resx">
+      <DependentUpon>BalanceSheetReportForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DetailedSubAccCrysRep.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>DetailedSubAccCrysRep.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="DetailedSubAccReportForm.resx">
       <DependentUpon>DetailedSubAccReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RelayedDailyRestrictionsCryRep.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -951,8 +980,8 @@
     <EmbeddedResource Include="LeftSupplyOrdersReports.resx">
       <DependentUpon>LeftSupplyOrdersReports.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainPage.resx">
-      <DependentUpon>MainPage.cs</DependentUpon>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="MaintenanceOfBranches.resx">
