@@ -2,15 +2,15 @@
 using System.Data;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-
+using System.Configuration;
 
 namespace Limra
 {
     public partial class VocherOfRecievable : Form
     {
         #region connection settings
-        private const string strconneciton = @"Data Source=SPECTRA5;Initial Catalog=Limra;Integrated Security=True;TrustServerCertificate=False";
-        SqlConnection con = new SqlConnection(strconneciton);
+        static string strConneciton = ConfigurationManager.ConnectionStrings["Test"].ConnectionString;
+        SqlConnection con = new SqlConnection(strConneciton);
         SqlCommand cmd = new SqlCommand();
         DataTable dataTable, dataTableBoxes, dataTableBanks, dataTableAccounts;
         #endregion

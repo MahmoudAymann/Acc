@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-
+using System.Configuration;
 
 namespace Limra
 {
@@ -14,8 +14,8 @@ namespace Limra
         //DataGridView3 for Agents
         //DataGridView4 for Items
 
-        private const string strconneciton = @"Data Source=SPECTRA5;Initial Catalog=Limra;Integrated Security=True;TrustServerCertificate=False";
-        SqlConnection con = new SqlConnection(strconneciton);
+        static string strConneciton = ConfigurationManager.ConnectionStrings["Test"].ConnectionString;
+        SqlConnection con = new SqlConnection(strConneciton);
         SqlCommand cmd = new SqlCommand();
         DataTable dataTable;
 

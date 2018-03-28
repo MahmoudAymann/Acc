@@ -3,13 +3,14 @@ using System.Data;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Collections.Generic;
+using System.Configuration;
 
 namespace Limra
 {
     public partial class DailyRestrictions : Form
     {
-        private const string strconneciton = @"Data Source=SPECTRA5;Initial Catalog=Limra;Integrated Security=True;TrustServerCertificate=False";
-        SqlConnection con = new SqlConnection(strconneciton);
+        static string strConneciton = ConfigurationManager.ConnectionStrings["Test"].ConnectionString;
+        SqlConnection con = new SqlConnection(strConneciton);
         SqlCommand cmd = new SqlCommand();
         DataTable dataTable;
 
